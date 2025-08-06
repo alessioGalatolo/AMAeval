@@ -391,9 +391,9 @@ def run_dynamic_benchmark(model, data_path, benchmark_model, n_scenarios=None, s
 
 
 def main():
-    parser = argparse.ArgumentParser(description="AMAEval benchmark dynamic")
+    parser = argparse.ArgumentParser(description="AMAeval benchmark dynamic")
     parser.add_argument("--model", type=str, default="Qwen/Qwen2.5-1.5B-Instruct")
-    parser.add_argument("--benchmark-model", type=str, default="alessioGalatolo/AMAEval")
+    parser.add_argument("--benchmark-model", type=str, default="alessioGalatolo/AMAeval")
     parser.add_argument("--data-path", type=str, default="./benchmark/data")
     parser.add_argument("--n-scenarios", type=int, default=None)
     parser.add_argument("--save-filepath", type=str, default=None)

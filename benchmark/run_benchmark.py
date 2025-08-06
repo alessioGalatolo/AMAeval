@@ -24,7 +24,7 @@ def main():
     parser = argparse.ArgumentParser(description="Run benchmark tests")
     parser.add_argument("--model", type=str, required=True, help="Model name")
     parser.add_argument("--data-path", type=str, default="./benchmark/data", help="Path to the data directory")
-    parser.add_argument("--dynamic-benchmark-model", type=str, default="alessioGalatolo/AMAEval", help="Path or (hf) repo to the model used for the dynamic benchmark.")
+    parser.add_argument("--dynamic-benchmark-model", type=str, default="alessioGalatolo/AMAeval", help="Path or (hf) repo to the model used for the dynamic benchmark.")
     args = parser.parse_args()
 
     print(f"Running benchmarks for model: {args.model}")

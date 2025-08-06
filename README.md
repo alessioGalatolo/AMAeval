@@ -2,7 +2,7 @@
 
 ![Radar chart of top 6 performing model](top_6.png)
 
-**AMAeval** is a benchmark for evaluating large language models (LLMs) on their capacity to perform *explicit* moral reasoning, as required by the role of an **Artificial Moral Assistant** (AMA). Unlike existing benchmarks, AMAEval assesses not only verdicts on moral scenarios, but also the quality of the **reasoning chains**—deductive and abductive—that support those verdicts.
+**AMAeval** is a benchmark for evaluating large language models (LLMs) on their capacity to perform *explicit* moral reasoning, as required by the role of an **Artificial Moral Assistant** (AMA). Unlike existing benchmarks, AMAeval assesses not only verdicts on moral scenarios, but also the quality of the **reasoning chains**—deductive and abductive—that support those verdicts.
 
 This benchmark is introduced in the paper:
 ***"Beyond Ethical Alignment: Evaluating LLMs as Artificial Moral Assistants"***
@@ -80,7 +80,7 @@ python benchmark/run_dynamic_benchmark.py --model your_model_name
 The dynamic component relies on a fine-tuned LoRA classifier based on Qwen 2.5-3B to score reasoning quality.
 
 * Training code: [`benchmark/train_classifier.py`](./benchmark/train_classifier.py)
-* Weights: [huggingface.co/alessioGalatolo/AMAEval](https://huggingface.co/alessioGalatolo/AMAEval) (will be loaded automatically)
+* Weights: [huggingface.co/alessioGalatolo/AMAeval](https://huggingface.co/alessioGalatolo/AMAeval) (will be loaded automatically)
 
 ---
 
